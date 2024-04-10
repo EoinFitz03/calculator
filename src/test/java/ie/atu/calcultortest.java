@@ -32,4 +32,12 @@ public class calcultortest {
 
     }
 
+    @Test
+    public void testDivide()
+    {
+        myCalc = new Calculator();
+        assertEquals(10,myCalc.divide(20,2));
+
+    }
+
 }
