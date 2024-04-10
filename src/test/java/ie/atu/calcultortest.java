@@ -24,4 +24,12 @@ public class calcultortest {
 
     }
 
+    @Test
+    public void testSubtract()
+    {
+        myCalc = new Calculator();
+        assertEquals(10,myCalc.subtract(20,10));
+
+    }
+
 }
