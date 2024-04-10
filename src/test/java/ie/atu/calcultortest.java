@@ -16,6 +16,12 @@ public class calcultortest {
 
     }
 
+    @Test
+    public void multiplyAdd()
+    {
+        myCalc = new Calculator();
+        assertEquals(80,myCalc.multiply(2,20));
 
+    }
 
 }
