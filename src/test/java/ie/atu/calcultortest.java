@@ -1,4 +1,21 @@
 package ie.atu;
 
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 public class calcultortest {
+    Calculator myCalc;
+
+
+    @Test
+    public void tesAdd()
+    {
+        myCalc = new Calculator();
+        assertEquals(40,myCalc.add(20,20));
+
+    }
+
+
+
 }
